@@ -2,3 +2,53 @@
     padding: 0;
     margin: 0;
 }
+
+span.precios{
+    font-size: 18px;
+    margin-left: 15px;
+    display: block;
+}
+
+
+span.descuentos{
+     font-size: 16px;
+     margin-left: 15px;
+     display: block;
+}
+
+
+h2.titulares{
+    font-size: 24px;
+    margin: 20px;
+}
+
+h3.descripciones{
+    font-size: 16px;
+    margin-top:10px;
+    margin-bottom: 40px;
+    margin-left: 15px;
+    display: block;
+}
+
+
+body{
+    font-family: 'Roboto';
+    background-color: var(--colorAmarillo);
+   
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+li{
+    list-style: none;
+}
+
+
+p{
+    font-size: 12px;
+}
