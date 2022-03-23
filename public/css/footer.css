@@ -1,0 +1,38 @@
+footer{
+    background-color: white;
+}
+
+
+
+.piePag section div{
+
+    border-radius: 5px;
+    background-color:white ;
+    color: var(--colorCeleste);
+    display:block;
+    font-size: 30px;
+    margin: 30px auto 5px;
+    padding: 5px;
+    text-align: center;
+    width: 50px;
+     
+
+}
+
+.piePag section {
+    padding: 10px 40px;
+    text-align: center;
+
+}
+
+.piePag section h3{
+
+    color: var(--grisOscuro);
+    font-weight:bolder;
+    
+}
+
+.piePag p{
+
+    color: var(--grisOscuro);
+}

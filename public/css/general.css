@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
@@ -7,6 +8,9 @@ span.precios{
     font-size: 18px;
     margin-left: 15px;
     display: block;
+    padding-top: 10px;
+    font-weight: bolder;
+    color: var(--grisOscuro);
 }
 
 
@@ -14,35 +18,64 @@ span.descuentos{
      font-size: 16px;
      margin-left: 15px;
      display: block;
+     color: var(--verde);
+     font-weight: bolder;
+     line-height: 25px;
 }
 
 
 h2.titulares{
     font-size: 24px;
     margin: 20px;
+    padding-top: 15px;
+    color: var(--grisOscuro);
+    font-weight: bolder ;
+
 }
 
 h3.descripciones{
     font-size: 16px;
-    margin-top:10px;
-    margin-bottom: 40px;
+    margin-top:5px;
+    padding-bottom: 40px;
     margin-left: 15px;
     display: block;
+    color: var(--grisOscuro);
+    font-weight: bolder;
+}
+
+
+
+.copyright p{
+   margin-top: 30px;
+   margin-bottom:15px ;
+   margin-left: 10px;
+   text-align: left;
+}
+
+header{
+
+    background-color: var(--colorAmarillo);
+
+}
+
+
+main{
+
+    background-color: var(--grisClaro);
 }
 
 
 body{
-    font-family: 'Roboto';
-    background-color: var(--colorAmarillo);
-   
-    
+    font-family: 'Roboto';    
 }
+
 
 a{
     text-decoration: none;
     color: black;
     
 }
+
 
 li{
     list-style: none;
@@ -51,4 +84,5 @@ li{
 
 p{
     font-size: 12px;
+    line-height: 18px;
 }
