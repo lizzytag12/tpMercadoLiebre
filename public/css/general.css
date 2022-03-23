@@ -5,7 +5,7 @@
 }
 
 span.precios{
-    font-size: 18px;
+    font-size: var(--precios);
     margin-left: 15px;
     display: block;
     padding-top: 10px;
@@ -15,7 +15,7 @@ span.precios{
 
 
 span.descuentos{
-     font-size: 16px;
+     font-size: var(--descuentos);
      margin-left: 15px;
      display: block;
      color: var(--verde);
@@ -25,16 +25,16 @@ span.descuentos{
 
 
 h2.titulares{
-    font-size: 24px;
-    margin: 20px;
-    padding-top: 15px;
+   
     color: var(--grisOscuro);
+    font-size: var(--titulares);
     font-weight: bolder ;
-
+    padding: 30px 15px 15px;
 }
 
+
 h3.descripciones{
-    font-size: 16px;
+    font-size: var(--descripciones);
     margin-top:5px;
     padding-bottom: 40px;
     margin-left: 15px;
@@ -42,7 +42,6 @@ h3.descripciones{
     color: var(--grisOscuro);
     font-weight: bolder;
 }
-
 
 
 .copyright p{
@@ -62,6 +61,7 @@ header{
 main{
 
     background-color: var(--grisClaro);
+    padding-top: 15px;
 }
 
 
@@ -83,6 +83,6 @@ li{
 
 
 p{
-    font-size: 12px;
+    font-size: var(--cuerposDeTexto);
     line-height: 18px;
 }

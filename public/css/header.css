@@ -35,7 +35,7 @@ header div.searchBar input{
 
  header div.burger-menu{
 
-     display: flex; 
+    display: flex; 
     justify-content: center;
     align-items: center;
     padding-bottom: 4vh;
