@@ -1,3 +1,6 @@
+header{
+    margin-bottom: 0px;
+}
 header img.logo{
     margin-top: 30px;
     margin-left: 20px;
@@ -10,6 +13,7 @@ header div.searchBar input{
 
     width: 175px;
     height: 20px;
+    
 }
 
 
@@ -18,19 +22,26 @@ header div.searchBar input{
     margin-top:10px;
     width: 100px;
     height: 40px;   
+    
+ }
+
+ header span{
+     margin-left: 50px;
  }
 
 
  header nav.navBar{
  
      margin-left: 10px;
-     margin-top: 20px;    
+     margin-top: 20px;   
+     display: none; 
  }
  
  header nav.loginBar{
  
      margin-left: 10px;
      margin-top: 20px;
+     display: none;
  }
 
  header div.burger-menu{
@@ -38,7 +49,7 @@ header div.searchBar input{
     display: flex; 
     justify-content: center;
     align-items: center;
-    padding-bottom: 4vh;
+    padding-bottom: 15px;
     margin-top: 20px;
  }
 
@@ -51,6 +62,94 @@ header div.searchBar input{
     padding: 5px;
     text-align: center;
     width: 50px;
-    
      
  } 
+
+ 
+header section.banner{
+    
+    display: none;
+    
+    
+}
+
+
+ /*TABLET*/
+
+ @media(min-width:425px){
+
+    
+    header nav.navBar{
+       
+        display: block; 
+    }
+    
+    header nav.loginBar{
+    
+        display: block;
+        padding-bottom: 15px;
+    }
+
+    header div.burger-menu{
+
+        display: none;
+     }
+    
+      header div.burger-menu i{
+    
+        display: none;
+        
+         
+     }
+     /*BANNER*/
+
+     
+   header section.banner{
+    display: block;
+
+
+   }
+
+   header section.banner img{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    
+    }    
+    
+ }
+
+
+ 
+ /*LAPTOP*/
+
+ @media(min-width:769px){
+    
+    
+    header nav.navBar{
+ 
+       
+        display: block; 
+    }
+    
+    header nav.loginBar{
+    
+       
+        display: block;
+        padding-bottom:15px;
+    }
+
+    header div.burger-menu{
+
+        display: none;
+    }
+
+    
+    header div.burger-menu i{
+    
+        display: none;
+        
+         
+     } 
+ }
+
