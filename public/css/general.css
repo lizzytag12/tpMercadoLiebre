@@ -7,8 +7,7 @@
 
 span.precios{
     font-size: var(--precios);
-    display: block;
-    padding-top: 10px;
+    width: 30%;
     font-weight: bolder;
     color: black;
 }
@@ -16,10 +15,10 @@ span.precios{
 
 span.descuentos{
      font-size: var(--descuentos);
-     display: block;
+     width: 70%;
      color: var(--verde);
      font-weight: bolder;
-     line-height: 25px;
+    
 }
 
 
@@ -65,11 +64,7 @@ header{
 
 }
 
-/* 
-main{
-    background-color: var(--grisClaro) ;
-}
- */
+
 
 a{
     text-decoration: none;
