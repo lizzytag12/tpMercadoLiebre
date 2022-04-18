@@ -26,7 +26,7 @@ main{
     background-color: white;
     width: 100%;
     margin: 0px auto;
-    margin-bottom: 15px;  
+    margin-bottom: 15px; 
     
    
 }
@@ -97,12 +97,8 @@ main{
         display: block;
     }
    
-    /* PRODUCTOS CON BOX SHADOW*/
-    .main article.articulo-cajaGeneral  {
+ 
 
-      box-shadow:0px 0px 10px rgb(100, 100, 100);
-      
-    }  
 
     .ultimaVista{
         flex-direction: row;
@@ -111,13 +107,23 @@ main{
         
     }
 
+   /* PRODUCTOS CON BOX SHADOW*/
     .main section article.articulo-cajaGeneral{
 
-    
+        box-shadow:0px 0px 10px rgb(100, 100, 100);
         width:48%;
         margin: 0;
         
     }
+
+    
+    .main article.articulo-cajaGeneral div.caja{
+
+    margin-bottom: 0px; 
+    
+   
+   }
+ 
 
     span.precios{
         font-size: var(--precios);
@@ -148,23 +154,22 @@ main{
 
     /*PRODUCTOS CON BOX SHADOW*/
 
-    .main article.articulo-cajaGeneral  {
-
- box-shadow:0px 0px 10px rgb(100, 100, 100);
-
-    }  
 
     .main section article.articulo-cajaGeneral{
 
     
         width:24%;
         margin: 0;
-        
-       
-        
+        box-shadow:0px 0px 10px rgb(100, 100, 100);
+
      
     }
-
+    .main article.articulo-cajaGeneral div.caja{
+        padding: 5px ;
+        text-align: center;
+    }
+    
+    
     
     span.descuentos{
         
