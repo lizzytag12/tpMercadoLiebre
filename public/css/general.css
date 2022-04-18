@@ -7,7 +7,7 @@
 
 span.precios{
     font-size: var(--precios);
-    width: 30%;
+width: 30%;
     font-weight: bolder;
     color: black;
 }
@@ -15,7 +15,7 @@ span.precios{
 
 span.descuentos{
      font-size: var(--descuentos);
-     width: 70%;
+    width: 70%;
      color: var(--verde);
      font-weight: bolder;
     

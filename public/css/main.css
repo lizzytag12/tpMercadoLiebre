@@ -70,6 +70,14 @@ main{
 
 
 
+.ultimaVista{
+
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 
 /* precio - descuento*/
@@ -83,19 +91,6 @@ main{
 }
 
 
-.precio-descuento-container span.precio{
-
-    width: 30%;
- 
-}
-
-.precio-descuento-container span.descuento{
-
-    width: 70%;
-   
-}
-
-     
 
           
         /*TABLETS*/
@@ -112,8 +107,44 @@ main{
     .main article.articulo-cajaGeneral  {
 
       box-shadow:0px 0px 10px rgb(100, 100, 100);
-
+      
     }  
+
+    .ultimaVista{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        
+    }
+
+    .main section article.articulo-cajaGeneral{
+
+    
+        width:48%;
+        margin: 0;
+        
+       
+        
+     
+    }
+
+    
+    span.precios{
+      
+        padding-top: 5px;
+   
+    }
+    
+    span.descuentos{
+        padding-top: 5px;
+        
+        text-align: center;
+   
+    }
+
+    
+
+   
     
 }
 
@@ -140,4 +171,29 @@ main{
 
     }  
 
+    .main section article.articulo-cajaGeneral{
+
+    
+        width:24%;
+        margin: 0;
+        
+       
+        
+     
+    }
+
+    span.precios{
+        font-size: 14px;
+        padding-top: 5px;
+   
+    }
+    
+    span.descuentos{
+        padding-top: 5px;
+        font-size: 14px;
+        text-align: center;
+   
+    }
+    
+    
 }
