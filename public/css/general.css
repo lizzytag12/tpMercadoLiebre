@@ -54,6 +54,7 @@ h3.descripciones{
 
 body{
     font-family: 'Roboto';    
+    background-color: var(--grisClaro) ;  /* COLOR GRIS EN EL MAIN */
 }
 
 
@@ -64,11 +65,11 @@ header{
 
 }
 
-
+/* 
 main{
     background-color: var(--grisClaro) ;
 }
-
+ */
 
 a{
     text-decoration: none;
