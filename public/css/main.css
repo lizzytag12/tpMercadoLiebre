@@ -89,7 +89,7 @@ main{
           
         /*TABLETS*/
 
-@media(min-width:460px){
+@media(min-width:768px){
    
     /*DESCRIPCIONES*/
     h3.descripciones{
@@ -143,7 +143,7 @@ main{
        /*LAPTOPS*/
 
 
-@media(min-width: 769px){
+@media(min-width: 1024px){
    
     /*DESCRIPCIONES*/
 

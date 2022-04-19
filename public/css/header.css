@@ -1,89 +1,91 @@
-header{
+header {
     margin-bottom: 0px;
 }
 
-header img.logo{
+header img.logo {
     margin-top: 15px;
-    width: 100% ;
-   
+    width: 100%;
+
 }
 
 
-.contenedor-logo-searchBar{  /* contenedor del logo y de la barra de busqueda*/
+.contenedor-logo-searchBar {
+    /* contenedor del logo y de la barra de busqueda*/
 
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: center;
     padding-bottom: 15px;
-   
+
 
 
 }
 
 
-.contenedor-imagen{
+.contenedor-imagen {
 
     width: 50%;
 }
 
 
 
-header div.searchBar input{
+header div.searchBar input {
 
     width: 100px;
     height: 30px;
     border-radius: 3px;
     border-color: white;
-    
+
 }
 
 
- header div.searchBar{
+header div.searchBar {
     margin-left: 5px;
-    margin-top:20px;
+    margin-top: 20px;
     width: 30%;
-    
-    
- }
 
-i.lupa{
+
+}
+
+i.lupa {
 
     font-size: 19px;
- }
+}
 
 
 
 
- header span{
-     margin-left: 50px;
- }
+header span.cuotas {
+    margin-left: 50px;
+
+}
 
 
- header nav.navBar{
- 
-     margin-left: 10px;
-     margin-top: 20px;   
-     display: none; 
- }
- 
- header nav.loginBar{
- 
-     margin-left: 10px;
-     margin-top: 20px;
-     display: none;
- }
+header nav.navBar {
 
- header div.burger-menu{
+    margin-left: 10px;
+    margin-top: 20px;
+    display: none;
+}
 
-    display: flex; 
+header nav.loginBar {
+
+    margin-left: 10px;
+    margin-top: 20px;
+    display: none;
+}
+
+header div.burger-menu {
+
+    display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 15px;
     margin-top: 20px;
- }
+}
 
-  header div.burger-menu i{
+header div.burger-menu i {
 
     border-radius: 5px;
     background-color: var(--colorCeleste);
@@ -92,99 +94,189 @@ i.lupa{
     padding: 5px;
     text-align: center;
     width: 50px;
-     
- } 
 
- 
-header section.banner{
-    
+}
+
+
+header section.banner {
+
     display: none;
-    
-    
+
+
 }
 
 
 /*    MOBILE*/
- @media (min-width : 425px){
+@media (min-width : 425px) {}
 
- }
+/*TABLET*/
 
- /*TABLET*/
+@media(min-width:768px) {
 
- @media(min-width:460px){
+    header nav.navBar {
 
-    
-    header nav.navBar{
-       
-        display: block; 
+        margin-left: 10px;
+        margin-top: 20px;
+        display:flex;
     }
     
-    header nav.loginBar{
+    header nav.loginBar {
     
-        display: block;
-        padding-bottom: 15px;
+        margin-left: 10px;
+        margin-top: 20px;
+        display: flex;
+    }
+    
+    .contenedor-general-header {
+
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        justify-content: left
     }
 
-    header div.burger-menu{
+    .contenedor-logo-searchBar {
+        width: 55%;
 
-        display: none;
-     }
-    
-      header div.burger-menu i{
-    
-        display: none;
-        
-         
-     }
-     /*BANNER*/
 
+    }
+    .contenedor-imagen {
+
+        width: 40%;
+    }
+    
+
+
+    .contenedor-compra-cuotas {
+
+        display: flex;
+        width: 40%;
+        flex-direction: row;
+        justify-content: left
+    }
+    header div.searchBar input {
+
+        width: 150px;
      
-   header section.banner{
-    display: block;
-
-
-   }
-
-   header section.banner img{
-    width: 100%;
-    display: flex;
-    justify-content: end;
+        border-radius: 3px;
+        border-color: white;
     
-    }    
-    
- }
-
-
- 
- /*LAPTOP*/
-
- @media(min-width:769px){
-    
-    
-    header nav.navBar{
- 
-       
-        display: block; 
     }
     
-    header nav.loginBar{
-    
-       
+
+    header div.searchBar {
+        margin-left: 20px;
+        width: 42%;
+    }
+
+    header span.cuotas {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    /*      nav bar         */
+
+    .contenedor-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 15px;
+
+
+
+    }
+   
+
+
+    header nav.navBar ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+  
+
+    header nav.loginBar ul{
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+     /*                BURGUER MENU             */
+
+    header div.burger-menu {
+
+        display: none;
+    }
+
+    header div.burger-menu i {
+
+        display: none;
+
+
+    }
+
+    /*BANNER*/
+
+
+    header section.banner {
         display: block;
-        padding-bottom:15px;
+
+
     }
 
-    header div.burger-menu{
+    header section.banner img {
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+    }
+
+}
+
+
+
+/*LAPTOP*/
+
+@media(min-width:1024px) {
+
+    .contenedor-general-header {
+
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    header div.searchBar {
+        margin-left: 88px;
+        width: 42%;
+    }
+
+
+    header nav.navBar {
+
+
+        display: block;
+    }
+
+    header nav.loginBar {
+
+
+        display: block;
+        padding: 15px;
+    }
+
+    header div.burger-menu {
 
         display: none;
     }
 
-    
-    header div.burger-menu i{
-    
-        display: none;
-        
-         
-     } 
- }
 
+    header div.burger-menu i {
+
+        display: none;
+
+
+    }
+}
