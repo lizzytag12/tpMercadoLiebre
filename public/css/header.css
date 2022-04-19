@@ -117,16 +117,16 @@ header section.banner {
 
         margin-left: 10px;
         margin-top: 20px;
-        display:flex;
+        display: flex;
     }
-    
+
     header nav.loginBar {
-    
+
         margin-left: 10px;
         margin-top: 20px;
         display: flex;
     }
-    
+
     .contenedor-general-header {
 
         display: flex;
@@ -140,11 +140,12 @@ header section.banner {
 
 
     }
+
     .contenedor-imagen {
 
         width: 40%;
     }
-    
+
 
 
     .contenedor-compra-cuotas {
@@ -154,15 +155,16 @@ header section.banner {
         flex-direction: row;
         justify-content: left
     }
+
     header div.searchBar input {
 
         width: 150px;
-     
+
         border-radius: 3px;
         border-color: white;
-    
+
     }
-    
+
 
     header div.searchBar {
         margin-left: 20px;
@@ -176,7 +178,7 @@ header section.banner {
 
     /*      nav bar         */
 
-    .contenedor-nav{
+    .contenedor-nav {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
@@ -185,24 +187,24 @@ header section.banner {
 
 
     }
-   
 
 
-    header nav.navBar ul{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-  
 
-    header nav.loginBar ul{
-
+    header nav.navBar ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
 
-     /*                BURGUER MENU             */
+
+    header nav.loginBar ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /*                BURGUER MENU             */
 
     header div.burger-menu {
 

@@ -5,81 +5,83 @@
 }
 
 
-span.precios{
+span.precios {
     font-size: var(--precios);
-width: 30%;
+    width: 30%;
     font-weight: bolder;
     color: black;
 }
 
 
-span.descuentos{
-     font-size: var(--descuentos);
+span.descuentos {
+    font-size: var(--descuentos);
     width: 70%;
-     color: var(--verde);
-     font-weight: bolder;
-    
+    color: var(--verde);
+    font-weight: bolder;
+
 }
 
 
-h2.titulares{
+h2.titulares {
     color: var(--grisOscuro);
     font-size: var(--titulares);
-    font-weight: bolder ;
+    font-weight: bolder;
     margin-top: 15px;
     margin-bottom: 25px;
     margin-left: 40px;
 }
 
 
-h3.descripciones{
+h3.descripciones {
     font-size: var(--descripciones);
-    padding-top:25px;
+    padding-top: 25px;
     padding-bottom: 10px;
     display: block;
     color: var(--grisOscuro);
     font-weight: bolder;
-    display: none; /**descripciones ocultas para mobile*/
+    display: none;
+    /**descripciones ocultas para mobile*/
 }
 
 
-.copyright p{
-   margin-top: 30px;
-   margin-bottom:15px ;
-   margin-left: 10px;
-   text-align: left;
+.copyright p {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    text-align: left;
 }
 
 
-body{
-    font-family: 'Roboto';    
-    background-color: var(--grisClaro) ;  /* COLOR GRIS EN EL MAIN */
+body {
+    font-family: 'Roboto';
+    background-color: var(--grisClaro);
+    /* COLOR GRIS EN EL MAIN */
 }
 
 
-header{
+header {
 
     background-color: var(--colorAmarillo);
-    
+
 
 }
 
 
 
-a{
+a {
     text-decoration: none;
     color: black;
     padding: 5px;
-    
+
 }
 
 
-li{
+li {
     list-style: none;
 }
 
 
-p{
+p {
     font-size: var(--cuerposDeTexto);
     line-height: 18px;
 }
