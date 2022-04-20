@@ -1,0 +1,109 @@
+.register {
+    padding: 0 20px;
+}
+.register section{
+    width: 90%;
+    background-color: white;
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px grey;
+}
+.register h2{
+    text-transform: uppercase;
+    text-align: center;
+    
+}
+.register form{
+    margin-top: 30px;
+}
+
+.register__form-box{
+    margin:20px 0px;
+    width: 95%;
+}
+
+.register h3{
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.register__form-input, .register__form-select{
+    width: 100%;
+    margin: 10px 0px;
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: solid 1px rgb(29, 29, 29);
+    font-family: "Roboto";
+    font-size: 15px;
+}
+.eleccion{
+    cursor: pointer;
+}
+
+.file{
+    width: 100%;
+    border: 1px solid rgb(29, 29, 29);
+	color: #555555;
+	padding: 8px;
+	border-radius: 5px;
+    font-size: 16px;
+    font-family: "Roboto";
+    cursor: pointer;
+}
+.file:hover{
+    background-color: #969393;
+    box-shadow: 5px 5px 10px grey;
+  
+}
+.register_section label.label-bolder{
+
+    font-weight: 600;
+}
+.register__text-error{
+    color: red;
+    font-size: 0.8rem;
+    margin-left: 5px;
+}
+
+.register__radio-box{
+    margin: 0 0 10px 5px; 
+    
+    
+}
+
+.register__right{
+   text-align: right;
+}
+
+.register button{
+    border: none;
+    padding: 10px;
+    background-color:#008CBA ;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.register button.reset{
+    
+    background-color:#f44336 ;
+    
+}
+@media (min-width:768px){
+    .register article{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .register article .register__form-box{
+        width: 80%;
+        
+    }
+}
+
+@media (min-width:1024px){
+    .register section{
+        width: 50%;
+    }
+}
