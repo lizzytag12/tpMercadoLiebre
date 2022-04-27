@@ -65,6 +65,6 @@ main.login{
 
 @media (min-width:1024px){
     .login section{
-        width: 30%;
+        width: 80%;
     }
 }
