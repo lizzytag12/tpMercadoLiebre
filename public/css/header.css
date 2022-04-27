@@ -182,6 +182,7 @@ header section.banner {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+        align-items: center;
         padding-bottom: 15px;
 
 
