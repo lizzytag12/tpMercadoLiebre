@@ -57,6 +57,13 @@ main.login{
     font-weight: 700;
 }
 
+ /* COLOR DE FONDO DEL BOTON CAMBIA  AL USAR HOVER */
+.login button:hover{
+   transition: all 0.1s;
+    background-color: #0022AA;
+   
+}
+
 @media (min-width:768px){
    .login section{
         width: 50%;
