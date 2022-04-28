@@ -47,13 +47,14 @@ footer{
     }
     
     .piePag section {
+        
         padding: 10px 40px;
         text-align: center;
-        width: 40vh;
+        width: 33%;
     }
     .copyright p {
         
-        text-align: center;
+        text-align: left;
         padding-bottom: 10px;
     }
 }
