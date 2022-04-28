@@ -1,6 +1,6 @@
 header {
 
-    background-color:#EAC926;
+    background-color:var(--colorAmarillo);
     margin-bottom: 0px;
 
 
@@ -92,7 +92,7 @@ header div.burger-menu {
 header div.burger-menu i {
 
     border-radius: 5px;
-    background-color: #1259c3;
+    background-color: var(--colorCeleste);
     color: white;
     font-size: 30px;
     padding: 5px;
@@ -105,6 +105,7 @@ header section.banner {
 
     display: none;
 }
+
 
 /*        MOBILE*/
 @media (min-width : 425px) {}

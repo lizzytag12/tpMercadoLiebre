@@ -13,11 +13,34 @@ main{
     
     width:100%;
     margin: 0 auto;
+    margin-bottom: 15px;
    
    
     
  
 }
+
+/* APARECE DESCRIPCION AL HACER HOVER EN CAJA PADRE */
+.main section article.articulo-cajaGeneral:hover 
+h3.descripciones {
+  
+    display: block;
+   
+}
+
+/* APARECE EL BOX SHADOW AL HACER HOVER EN CAJA PRODUCTO */
+.main section article.articulo-cajaGeneral:hover {
+    
+    box-shadow: 0px 0px 10px rgb(100 100 100);
+  
+}
+
+    
+   
+   
+    
+ 
+
 
 
 .main article.articulo-cajaGeneral div.caja{
@@ -27,7 +50,7 @@ main{
     background-color: white;
     width: 100%;
     margin: 0px auto;
-    margin-bottom: 15px; 
+   /*  margin-bottom: 15px;  */
     
    
 }
@@ -85,6 +108,12 @@ main{
     flex-direction: row;
 
 }
+h3.descripciones:hover {
+       
+    display: block;
+    /**descripciones ocultas para mobile*/
+}
+
 
 
 
@@ -139,6 +168,7 @@ main{
         text-align: center;
    
     }
+
 
     }
     
