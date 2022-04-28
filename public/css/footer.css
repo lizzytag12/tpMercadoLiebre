@@ -36,6 +36,11 @@ footer{
 
     color: var(--grisOscuro);
 }
+.icono:hover{
+    transition:all 0.2s;
+    color: #EAC926;
+
+}
 
 @media(min-width:1024px){
 
