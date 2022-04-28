@@ -36,3 +36,24 @@ footer{
 
     color: var(--grisOscuro);
 }
+
+@media(min-width:1024px){
+
+    .footer-container{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .piePag section {
+        padding: 10px 40px;
+        text-align: center;
+        width: 40vh;
+    }
+    .copyright p {
+        
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
