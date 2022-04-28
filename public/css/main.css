@@ -1,4 +1,6 @@
 
+
+
 main{
 
     width:90% ;
@@ -85,6 +87,13 @@ h3.descripciones {
     right: 20px;
     top: -28px;
     color:#39b54a;
+}
+
+/* ROTACION EN LOGO ENVIO AL HACER HOVER*/
+.truck:hover{
+    transition: all 1s;
+    transform: rotate( -90deg);
+    
 }
 
 
