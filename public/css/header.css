@@ -1,52 +1,56 @@
 header {
+
+    background-color:#EAC926;
     margin-bottom: 0px;
-}
 
-header img.logo {
-    margin-top: 15px;
-    width: 100%;
 
 }
-
-
-.contenedor-logo-searchBar {
-    /* contenedor del logo y de la barra de busqueda*/
-
+/* contenedor general */
+.contenedor-general{
     display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
-    padding-bottom: 15px;
-
-
-
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 3vh;
 }
 
-
+/* imagen */
 .contenedor-imagen {
 
     width: 50%;
 }
 
 
-
-header div.searchBar input {
-
-    width: 100px;
-    height: 30px;
-    border-radius: 3px;
-    border-color: white;
+header img.logo {
+    padding: 15px;
+    width: 100%;
 
 }
 
 
-header div.searchBar {
-    margin-left: 5px;
-    margin-top: 20px;
-    width: 30%;
+/* buscador */
 
+.contenedor-buscar-productos{
+
+    width: 50%;
+}
+.contendor-buscar-productos input{
+    width: 160px;
+    height: 25px;
+}
+
+
+
+/* cuotas */
+
+.contenedor-compra-cuotas{
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 
 }
+
 
 i.lupa {
 
@@ -88,7 +92,7 @@ header div.burger-menu {
 header div.burger-menu i {
 
     border-radius: 5px;
-    background-color: var(--colorCeleste);
+    background-color: #1259c3;
     color: white;
     font-size: 30px;
     padding: 5px;
@@ -97,105 +101,75 @@ header div.burger-menu i {
 
 }
 
-
 header section.banner {
 
     display: none;
-
-
 }
 
-
-/*    MOBILE*/
+/*        MOBILE*/
 @media (min-width : 425px) {}
 
-/*TABLET*/
+/*         TABLET*/
 
 @media(min-width:768px) {
 
+    .contenedor-general {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2vh 1vh;
+    }
+    .contenedor-imagen {
+        width: 30%;
+    }
+    .contenedor-buscar-productos {
+        width: 30%;
+    }
+    .contenedor-buscar-productos input{
+        margin-left: 10px;
+        height: 29px;
+    }
+    i.lupa {
+        font-size: 17px;
+        padding: 3px;
+    }
+    .contenedor-compra-cuotas {
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+      
+    }
+    header span.cuotas {
+        margin-left: 0px;
+        font-size: 15px;
+    }
+
+ /*      NAV BAR      */
+   
     header nav.navBar {
 
         margin-left: 10px;
         margin-top: 20px;
         display: flex;
     }
-
     header nav.loginBar {
 
         margin-left: 10px;
         margin-top: 20px;
         display: flex;
     }
-
-    .contenedor-general-header {
-
-        display: flex;
-        width: 100%;
-        flex-direction: row;
-        justify-content: left
-    }
-
-    .contenedor-logo-searchBar {
-        width: 55%;
-
-
-    }
-
-    .contenedor-imagen {
-
-        width: 40%;
-    }
-
-
-
-    .contenedor-compra-cuotas {
-
-        display: flex;
-        width: 40%;
-        flex-direction: row;
-        justify-content: left
-    }
-
-    header div.searchBar input {
-
-        width: 150px;
-
-        border-radius: 3px;
-        border-color: white;
-
-    }
-
-
-    header div.searchBar {
-        margin-left: 20px;
-        width: 42%;
-    }
-
-    header span.cuotas {
-        margin-left: 0px;
-        margin-top: 20px;
-    }
-
-    /*      nav bar         */
-
     .contenedor-nav {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding-bottom: 15px;
-
-
-
     }
-
-
-
     header nav.navBar ul {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-
 
     header nav.loginBar ul {
 
@@ -238,27 +212,46 @@ header section.banner {
 
 
 
-/*LAPTOP*/
+/*             LAPTOP     */
 
 @media(min-width:1024px) {
 
-    .contenedor-general-header {
-
+    .contenedor-nav {
         display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: row;
+        justify-content: space-around;
+        padding-bottom: 15px;
+        align-items: center;
     }
 
-    header div.searchBar {
-        margin-left: 88px;
-        width: 42%;
+    .contenedor-imagen {
+        width: 32%;
+    }
+    header img.logo {
+        
+        width: 43vh;
+    }
+    .contenedor-buscar-productos input {
+        margin-left: 4em;
+        height: 3vh;
+        width: 18vh;
+    }
+    .contenedor-compra-cuotas {
+        width: 38%;
+        display: flex;
+        flex-direction: row;
+      
+    }
+    header span.cuotas {
+        margin-left: 0px;
+        font-size: 20px;
     }
 
-
+    .contenedor-buscar-productos {
+        width: 24%;
+        margin-left: 0px;
+    }
     header nav.navBar {
-
-
         display: block;
     }
 

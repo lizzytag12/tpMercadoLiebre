@@ -11,16 +11,14 @@
 </head>
 
 <body>
-    <header>
-        <div class="contenedor-general-header">
-            <div class="contenedor-logo-searchBar">
-                <div class="contenedor-imagen">
-                    <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo Meercado Liebre" />
-                </div>
-                <div class="searchBar">
-                    <input type="text" placeholder="Buscar productos, marcas" />
-                    <button><i class="fas fa-search lupa"></i></button>
-                </div>
+    <header class="header">
+        <div class="contenedor-general">
+            <div class="contenedor-imagen">
+                <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo Meercado Liebre" />
+            </div>
+            <div class="contenedor-buscar-productos">
+                <input type="text" placeholder="Buscar productos, marcas" />
+                <button><i class="fas fa-search lupa"></i></button>
             </div>
             <div class="contenedor-compra-cuotas">
                 <span class="cuotas">
@@ -66,8 +64,10 @@
 
 
             <article class="articulo-cajaGeneral">
+                <div class="caja_imagen-producto">
 
                 <img class="product" src="/images/img-cafetera-moulinex.jpg" alt="Cafetera Moulinex" />
+                </div>
                 <div class="caja">
                     <div class="logoEnvio">
                         <i class="fa-solid fa-truck truck"></i>
@@ -172,7 +172,8 @@
     </main>
 
     <footer class="piePag">
-        <section>
+        <div class="footer-container">
+        <section class="seccion">
             <div><i class="fa-solid fa-credit-card"></i></div>
             <h3>Pagá con tarjeta o efectivo</h3>
             <p>
@@ -181,7 +182,7 @@
             </p>
         </section>
 
-        <section>
+        <section class="seccion">
             <div><i class="fa-solid fa-gift"></i></div>
             <h3>Envío gratis desde $ 2.500</h3>
             <p>
@@ -190,7 +191,7 @@
             </p>
         </section>
 
-        <section>
+        <section class="seccion">
             <div><i class="fa-solid fa-user-shield"></i></div>
             <h3>Seguridad, de principio a fin</h3>
             <p>
@@ -198,6 +199,7 @@
                 hacer, porque estás siempre protegid@.
             </p>
         </section>
+    </div>
         <article class="copyright">
             <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
         </article>
