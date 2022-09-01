@@ -67,7 +67,7 @@ main{
           
         /*TABLETS*/
 
-@media(min-width:425px){
+@media(min-width:768px){
    
     /*DESCRIPCIONES*/
     h3.descripciones{
@@ -82,6 +82,15 @@ main{
 
     }  
     
+main{
+
+    width:70% ;
+    margin: 0 auto;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+    
 }
 
 
@@ -90,7 +99,7 @@ main{
        /*LAPTOPS*/
 
 
-@media(min-width: 769px){
+@media(min-width:1024px){
    
     /*DESCRIPCIONES*/
 

@@ -8,10 +8,9 @@ header img.logo{
     height: 10%;
 }
 
-
 header div.searchBar input{
 
-    width: 175px;
+  
     height: 20px;
     
 }
@@ -22,7 +21,12 @@ header div.searchBar input{
     margin-top:10px;
     width: 100px;
     height: 40px;   
+    display: flex;
     
+ }
+ header div.searchBar button{
+
+    height: 20px;
  }
 
  header span{
@@ -76,7 +80,7 @@ header section.banner{
 
  /*TABLET*/
 
- @media(min-width:425px){
+ @media(min-width:768px){
 
     
     header nav.navBar{
@@ -123,7 +127,7 @@ header section.banner{
  
  /*LAPTOP*/
 
- @media(min-width:769px){
+ @media(min-width:1024px){
     
     
     header nav.navBar{
