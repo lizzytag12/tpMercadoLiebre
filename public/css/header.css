@@ -32,6 +32,7 @@ header img.logo {
 .contenedor-buscar-productos{
 
     width: 50%;
+    display: flex;
 }
 .contendor-buscar-productos input{
     width: 160px;
@@ -54,7 +55,8 @@ header img.logo {
 
 i.lupa {
 
-    font-size: 19px;
+    font-size: 15px;
+    padding: 1px;
 }
 
 
@@ -126,6 +128,7 @@ header section.banner {
     }
     .contenedor-buscar-productos {
         width: 30%;
+        justify-content: center;
     }
     .contenedor-buscar-productos input{
         margin-left: 10px;
@@ -233,9 +236,10 @@ header section.banner {
         width: 43vh;
     }
     .contenedor-buscar-productos input {
-        margin-left: 4em;
-        height: 3vh;
-        width: 18vh;
+        height: 27px;
+        width: 100%;
+    
+     
     }
     .contenedor-compra-cuotas {
         width: 38%;
