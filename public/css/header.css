@@ -17,6 +17,7 @@ header {
 .contenedor-imagen {
 
     width: 50%;
+    
 }
 
 
@@ -32,6 +33,7 @@ header img.logo {
 .contenedor-buscar-productos{
 
     width: 50%;
+    display: flex;
 }
 .contendor-buscar-productos input{
     width: 160px;
