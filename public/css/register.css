@@ -64,6 +64,7 @@
     color: red;
     font-size: 0.8rem;
     margin-left: 5px;
+    display: block;
 }
 
 .register__radio-box{
@@ -100,11 +101,15 @@
         width: 80%;
         
     }
+    .register section{
+        width:50%;
+     
+    }
 }
 
 @media (min-width:1024px){
     .register section{
-        width: 70%;
+        width: 50%;
         
     }
 }
